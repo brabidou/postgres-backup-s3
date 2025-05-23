@@ -1,12 +1,15 @@
 # postgres-backup-s3
 
-Backup PostgresSQL to S3 (supports periodic backups)
+[![Build](https://github.com/brabidou/postgres-backup-s3/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/brabidou/postgres-backup-s3/actions/workflows/docker-publish.yml)
+[![Docker pulls](https://img.shields.io/docker/pulls/brabidou/postgres-backup-s3.svg)](https://hub.docker.com/r/brabidou/postgres-backup-s3 'DockerHub')
+
+Backup PostgresSQL (up to Postgres 17) to S3 (supports periodic backups)
 
 Copied the from [`@schickling`](<https://github.com/schickling>) [`postgres-backup-s3`](<https://github.com/schickling/dockerfiles/tree/master/postgres-backup-s3>) project. Broken into an individual project for ease of updating and deployment.
 
-## Postgres
+[Github Project](https://github.com/brabidou/postgres-backup-s3)
 
-Compatible with Postgres 17
+[Docker Project](https://hub.docker.com/r/brabidou/postgres-backup-s3)
 
 ## Usage
 
