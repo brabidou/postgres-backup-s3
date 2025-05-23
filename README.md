@@ -4,6 +4,10 @@ Backup PostgresSQL to S3 (supports periodic backups)
 
 Copied the from [`@schickling`](<https://github.com/schickling>) [`postgres-backup-s3`](<https://github.com/schickling/dockerfiles/tree/master/postgres-backup-s3>) project. Broken into an individual project for ease of updating and deployment.
 
+## Postgres
+
+Compatible with Postgres 17
+
 ## Usage
 
 Docker:
